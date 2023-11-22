@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import {Hero} from './Component/Hero';
 import {Nav} from './Component/Nav';
 import "./Dog.css";
+import {dogNameCard} from './Component/Content';
+import {Breed} from './Component/Breed';
 
 import reportWebVitals from './reportWebVitals';
 // Bootstrap CSS
@@ -16,7 +18,19 @@ root.render(
   <div id="con">
     <Nav />
     <div className="Hero-con">
-    <Hero />
+      <Hero />
+    </div>
+  </div>
+  <div className="container">
+    <div className="row">
+          {dogNameCard.map(breeds => ( 
+            <div className="col-md-4 mb-3">
+              <Breed key={breeds.name}
+                  name={breeds.name}
+                  image={breeds.image}
+                  dogName ={breeds.dogName}/>
+            </div>
+          ))};
     </div>
   </div>
   </React.StrictMode>

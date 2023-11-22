@@ -9,16 +9,16 @@ export const Hero = () => {
         <video autoPlay muted loop>
           <source src={DogVideo} type="video/mp4" />
         </video>
-          <div className="container-fluid py-5 d-flex justify-content-center flex-column align-items-center">
-        <h1 className="display-5 fw-bold">Custom jumbotron</h1>
+          <div className="container-fluid py-5 text-center d-flex justify-content-center flex-column align-items-center">
+        <h1 className="display-5 fw-bold">Your Starting Point For Furry Friendships!</h1>
         <p className="col-md-8 fs-4">
-          Using a series of utilities, you can create this jumbotron, just like
-          the one in previous versions of Bootstrap. Check out the examples
-          below for how you can remix and restyle it to your liking.
+        Start your journey into the wonderful world of dogs! Whether you're new to the dog world or a seasoned enthusiast,
+        our team is here to guide you. Explore our range of premium breeds, expert services, and everything you need to 
+        start your heartwarming adventure with a new furry family member."
         </p>
-        <button className="btn btn-primary btn-lg" type="button">
+        {/* <button className="btn btn-primary btn-lg" type="button">
           Example button
-        </button>
+        </button> */}
       </div>
     </div>
   );
