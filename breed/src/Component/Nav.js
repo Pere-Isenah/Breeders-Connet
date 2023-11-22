@@ -21,7 +21,7 @@ export const Nav = () =>{
 			<a className="nav-link active" aria-current="page" href="#">Home</a>
 		  </li>
 		  <li className="nav-item me-3">
-			<a className="nav-link" href="#">Breeds</a>
+			<a className="nav-link" href="#breeds">Breeds</a>
 		  </li>
 		  <li className="nav-item me-3">
 			<a className="nav-link" href="#">Services</a>

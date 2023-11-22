@@ -5,6 +5,6 @@ import boerboel from "../Images/boerboel2.png";
 export const dogNameCard = [ 
     {name: 'Lhasa Apso', image: lhasaImage, dogName: 'Lhasa Apso' },
     { name: 'Pug', image: pugImage, dogName: 'pug'},
-    {name: 'boerboel', image: boerboel, dogName: "boerboel" }
+    {name: 'Boerboel', image: boerboel, dogName: "boerboel" }
   ];
   

@@ -5,7 +5,7 @@ import {Nav} from './Component/Nav';
 import "./Dog.css";
 import {dogNameCard} from './Component/Content';
 import {Breed} from './Component/Breed';
-
+import {dogTraits} from './Component/DogTraits';
 import reportWebVitals from './reportWebVitals';
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -21,8 +21,10 @@ root.render(
       <Hero />
     </div>
   </div>
-  <div className="container-fluid card-con bg-light">
+  <div id ="breeds" className="container-fluid bg-light">
+  
     <div className="row card-con2">
+    <p className="h2 text-center">Our Breeds</p>
           {dogNameCard.map(breeds => ( 
             <div className="col-md-4 text-center">
               <Breed key={breeds.name}
@@ -30,9 +32,10 @@ root.render(
                   image={breeds.image}
                   dogName ={breeds.dogName}/>
             </div>
-          ))};
+          ))}
     </div>
   </div>
+  <dogTraits />
   </React.StrictMode>
 );
 
