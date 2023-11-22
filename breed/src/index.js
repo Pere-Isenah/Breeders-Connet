@@ -21,10 +21,10 @@ root.render(
       <Hero />
     </div>
   </div>
-  <div className="container">
-    <div className="row">
+  <div className="container-fluid card-con bg-light">
+    <div className="row card-con2">
           {dogNameCard.map(breeds => ( 
-            <div className="col-md-4 mb-3">
+            <div className="col-md-4 text-center">
               <Breed key={breeds.name}
                   name={breeds.name}
                   image={breeds.image}

@@ -5,7 +5,7 @@ import React from "react";
 export const Breed = ({name,image,dogName}) => {
     return (
     <div className="card ">
-      <img className="imgCard" src={image} alt="..."/>
+      <img className="imgCard mx-auto" src={image} alt="..."/>
       <div className="card-body">
         <h5 className="card-title">
           {name}

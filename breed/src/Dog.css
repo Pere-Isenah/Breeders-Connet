@@ -39,3 +39,17 @@ transform: translateX(-50%) translateY(-50%);
     height: 15rem;
     width: 12rem;
 }
+
+.card-con{
+    margin-top:4.5rem;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    /* padding:15rem 15rem; */
+}
+
+.card-con2{
+    width: 80%;
+}
