@@ -5,7 +5,7 @@ import {Nav} from './Component/Nav';
 import "./Dog.css";
 import {dogNameCard} from './Component/Content';
 import {Breed} from './Component/Breed';
-import {dogTraits} from './Component/DogTraits';
+import {DogTraits} from './Component/DogTraits';
 import reportWebVitals from './reportWebVitals';
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -36,7 +36,7 @@ root.render(
     </div>
   </div>
   <div className='dogTrait-con'>
-    <dogTraits />
+    <DogTraits />
   </div>
   </React.StrictMode>
 );

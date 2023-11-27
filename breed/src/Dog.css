@@ -70,7 +70,10 @@ transform: translateX(-50%) translateY(-50%);
 } */
 
 .dogTrait-con {
-    background-color: rgba(218, 160, 109,1);
+    background-color: rgb(223, 171, 125);
     height: 40rem;
     width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
