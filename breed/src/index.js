@@ -35,7 +35,9 @@ root.render(
           ))}
     </div>
   </div>
-  <dogTraits />
+  <div className='dogTrait-con'>
+    <dogTraits />
+  </div>
   </React.StrictMode>
 );
 
