@@ -13,7 +13,7 @@ export const Breed = ({name,image,dogName}) => {
         <p className="card-text">
           {dogName} 
         </p>
-        <a href="#" className="btn btn-secondary">
+        <a href="#" className="btn btn-secondary breed-btn">
           know more
         </a>
       </div>

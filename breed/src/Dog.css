@@ -13,6 +13,9 @@ z-index: -100;
 -webkit-transform: translateX(-50%) translateY(-50%);
 transform: translateX(-50%) translateY(-50%);
 }
+body{
+    background-color: #a6774b;
+}
 
 #con {
     height: 100vh;
@@ -50,13 +53,20 @@ transform: translateX(-50%) translateY(-50%);
     justify-content: center;
     align-items: center;
     /* align-content: center; */
-    padding:2rem 2rem;
+    padding:10rem 0;
 }
+.breed-btn{
+    background-color: #a6774b;
+    border: none;
+}
+
+
 
 .card-con2{
   /* display: flex; */
     width: 80%;
     /* gap: 0.5rem; */
+
 }
 .card{
     max-width: 20rem;
@@ -69,11 +79,33 @@ transform: translateX(-50%) translateY(-50%);
   width: 40rem;
 } */
 
-.dogTrait-con {
-    background-color: rgb(223, 171, 125);
-    height: 40rem;
+
+.dogTrait-con{
+    padding: 8rem 0;
+}
+
+.Trait-con {
+    
+    /* height: 40rem; */
     width:100%;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     align-items: center;
+}
+
+.Lhasa-Trait {
+    background-color: rgb(223, 171, 125);
+    width:100%;
+
+}
+
+.Boerboel-Trait{
+    background-color: rgba(187,153,102);
+    /* background-color: #7db1df; */
+    width:100%;
+}
+
+#dogFood{
+    height: 100%;
+    padding: 10rem 0;
 }
